@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 7000;
 
 // Your Gemini API Key (Replace with your actual API key)
-const geminiApiKey = "AIzaSyBTql_QUMlcxYKqCkYDQvP7FVrvlw7wluU"; // Replace with your actual API Key
+const geminiApiKey = "your_api_key"; // Replace with your actual API Key
 console.log(geminiApiKey)
 // Create an instance of the GoogleGenerativeAI client
 const genAI = new GoogleGenerativeAI(geminiApiKey);
